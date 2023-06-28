@@ -1,0 +1,236 @@
+h2, h3 {
+  text-align: center;
+  color: #d1d1d1;
+}
+
+.header {
+  margin: 20px;
+  border: 3px solid #000;
+  background-color: #32344c;
+  padding: 0 10px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 16px;
+  /*margin-top: 25px;*/
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #000;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 16px;
+}
+
+ul li:not(:last-child) {
+  margin-right: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+ul li:hover {
+  background-color: #000;
+}
+
+ul li:hover a {
+  color: #fff;
+}
+
+code {
+  background-color: #000;
+  color: #fff;
+  padding: 0 4px;
+  transition: color 0.2s ease-in-out;
+}
+
+ul li:hover code {
+  color: yellow;
+}
+
+.go-back {
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.container {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+  max-width: 400px;
+  margin: 20px auto 0;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.js-content {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  background: #000;
+  border: 1px solid #ccc;
+  color: white;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.page-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 14px 20px; /* Some padding */
+  margin: 8px 0; /* A bit of margin */
+  border: none; /* Remove border */
+  cursor: pointer; /* Mouse pointer on hover */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: block;
+  font-size: 16px;
+  transition-duration: 0.4s; /* Transition effect */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Green background on hover */
+  box-shadow: none; /* No shadow on hover */
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 130, 180, 0.5); /* Add a focus ring */
+}
+
+.btn:active {
+  background-color: #3e8e41; /* Darken background when button is pressed */
+  box-shadow: none;
+}
+
+.btn-red {
+  background-color: #FF0000;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #CC0000;
+}
+
+.btn-red:active {
+  background-color: #990000;
+}
+
+.btn-orange {
+  background-color: #FF7F00;
+  color: black;
+}
+
+.btn-orange:hover {
+  background-color: #CC6600;
+}
+
+.btn-orange:active {
+  background-color: #994C00;
+}
+
+.btn-yellow {
+  background-color: #FFFF00;
+  color: black;
+}
+
+.btn-yellow:hover {
+  background-color: #CCCC00;
+}
+
+.btn-yellow:active {
+  background-color: #999900;
+}
+
+.btn-green {
+  background-color: #00FF00;
+  color: black;
+}
+
+.btn-green:hover {
+  background-color: #00CC00;
+}
+
+.btn-green:active {
+  background-color: #009900;
+}
+
+.btn-blue {
+  background-color: #0000FF;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #0000CC;
+}
+
+.btn-blue:active {
+  background-color: #000099;
+}
+
+.btn-indigo {
+  background-color: #4B0082;
+  color: white;
+}
+
+.btn-indigo:hover {
+  background-color: #3E006B;
+}
+
+.btn-indigo:active {
+  background-color: #2D004E;
+}
+
+.btn-violet {
+  background-color: #8B00FF;
+  color: white;
+}
+
+.btn-violet:hover {
+  background-color: #7300CC;
+}
+
+.btn-violet:active {
+  background-color: #520099;
+}
+
+.buttons-wrapper {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.btn-center {
+  margin: 0 auto 10px;
+}
+
+.text-center {
+  text-align: center;
+}
