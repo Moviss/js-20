@@ -27,10 +27,10 @@ ul {
 
 ul li {
   list-style: none;
-  padding: 10px;
   border: 1px solid #000;
   transition: background-color 0.2s ease-in-out;
   margin-top: 16px;
+  cursor: pointer;
 }
 
 ul li:not(:last-child) {
@@ -41,13 +41,15 @@ a {
   text-decoration: none;
   color: #000;
   transition: color 0.2s ease-in-out;
+  padding: 10px;
+  display: block;
 }
 
 ul li:hover {
   background-color: #000;
 }
 
-ul li:hover a {
+ul li:hover * {
   color: #fff;
 }
 
@@ -234,3 +236,51 @@ ul li:hover code {
 .text-center {
   text-align: center;
 }
+
+p {
+  margin: 0;
+}
+
+.posts {
+  margin: 0;
+  list-style: none;
+  padding: 24px;
+}
+
+.posts li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.post-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.post-title:first-letter {
+  text-transform: uppercase;
+}
+
+.post-body {
+  margin: 0;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  background-color: tomato;
+  color: #fff;
+  transform: translatey(-100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.alert.is-visible {
+  transform: translatey(0);
+}
+
+
